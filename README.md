@@ -1,6 +1,9 @@
+![My Config](https://user-images.githubusercontent.com/77551844/115131396-dcfeec80-9fc5-11eb-8bb7-ae7b4a57296a.jpg)
+
+
 # NeoVim-Config
 
-> Antes de empezar me gustaría aclarar que casi toda la configuración esta hecha por un dev llamado Teo, todos los créditos son para él, y te dejo su Github [aquí](https://github.com/TeoDev1611).
+> Antes de empezar me gustaría aclarar que casi toda la configuración esta hecha por un dev llamado Teo, todos los créditos son para él, y te dejo su Github [aquí](https://github.com/TeoDev1611). Mas que nada lo tengo en este github como copia de respaldo por si le pasa algo a mi Vim.
 
 ## Inicio
 Esta configuración es para Neovim (Fork de Vim) tiene Plugins bastante útiles, un tema muy bonito para mi gusto (siempre puedes cambiarselo) atajos bastante útiles, una terminal integrada, entre otros.
