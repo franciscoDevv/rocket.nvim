@@ -45,10 +45,10 @@ L = Derecha
 
 ## Uso de esta configuración
 
-1.- Clona este repositorio
-2.- Pegalo en tu carpeta donde esta tu nvim
-3.- Ejecuta :PlugInstall
-4.- Actualiza con :so$ o simplemente sal de nvim o y vuelve a entrar
+1. Clona este repositorio
+2. Pegalo en tu carpeta donde esta tu nvim
+3. Ejecuta :PlugInstall
+4. Actualiza con :so$ o simplemente sal de nvim o y vuelve a entrar
 
 
 
