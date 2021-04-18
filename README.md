@@ -12,21 +12,21 @@ Esta configuración es para Neovim (Fork de Vim) tiene Plugins bastante útiles,
 > Cabe aclarar que `<leader>` es la tecla espacio en Windows 10.
 
 
-1.- <leader>w   Guardar el archivo
+1.- ``<leader>w``   Guardar el archivo
 ![image](https://user-images.githubusercontent.com/77551844/115130631-30217100-9fbf-11eb-8279-7acb83a96739.png)
-3.- <leader>q   Salir del archivo
+3.- ``<leader>q``   Salir del archivo
 ![image](https://user-images.githubusercontent.com/77551844/115130637-3c0d3300-9fbf-11eb-95e2-a857172bcb7c.png)
-5.- <leader>wq  Guardar y salir del archivo
+5.- ``<leader>wq``  Guardar y salir del archivo
 ![image](https://user-images.githubusercontent.com/77551844/115130655-6e1e9500-9fbf-11eb-9bf1-99156af6eee5.png)
-7.- <leader>so  Actualizar
+7.- ``<leader>so``  Actualizar
 ![image](https://user-images.githubusercontent.com/77551844/115130667-7c6cb100-9fbf-11eb-94fd-9ad6ecedfa2c.png)
-9.- <leader>pi  Instalar los plugins
+9.- ``<leader>pi``  Instalar los plugins
 ![image](https://user-images.githubusercontent.com/77551844/115130674-87274600-9fbf-11eb-8efb-44133ee2a824.png)
-11.- <leader>n   CocExplorer Lateral
+11.- ``<leader>n``   CocExplorer Lateral
 ![image](https://user-images.githubusercontent.com/77551844/115130680-93ab9e80-9fbf-11eb-9600-3160e78c756f.png)
-13.- <leader>p  CocExplorer Flotante
+13.- ``<leader>p``  CocExplorer Flotante
 ![image](https://user-images.githubusercontent.com/77551844/115130691-9d350680-9fbf-11eb-98a2-c5d32962862f.png)
-14.- <leader>t  Floaterm
+14.- ``<leader>t``  Floaterm
 ![image](https://user-images.githubusercontent.com/77551844/115130709-bd64c580-9fbf-11eb-8ce6-844496acb45d.png)
 
 
