@@ -1,60 +1,74 @@
-![My Config](https://user-images.githubusercontent.com/77551844/115131396-dcfeec80-9fc5-11eb-8bb7-ae7b4a57296a.jpg)
 
 
-# NeoVim-Config
 
-> Antes de empezar me gustaría aclarar que casi toda la configuración esta hecha por un dev llamado Teo, todos los créditos son para él, y te dejo su Github [aquí](https://github.com/TeoDev1611). Mas que nada lo tengo en este github como copia de respaldo por si le pasa algo a mi Vim.
+# 🪐 Neovim-Config 🪐
 
-## Inicio
-Esta configuración es para Neovim (Fork de Vim) tiene Plugins bastante útiles, un tema muy bonito para mi gusto (siempre puedes cambiarselo) atajos bastante útiles, una terminal integrada, entre otros.
+> Esta configuración fue hecha desde cero, la cual llevó (y lleva) gran parte de mi tiempo realizarla, por la cual, me gustaría que dejaras una estrellita a este repositorio! ⭐
 
-![image](https://user-images.githubusercontent.com/77551844/115130586-d751d880-9fbe-11eb-9f7b-e0b66d68c1a6.png)
+<h3 style="text-align: center;">Preview</h3>
 
-## Atajos Básicos
+![image](https://user-images.githubusercontent.com/77551844/132143265-0c1b860a-8610-48a9-912c-c1c7394a33ed.png)
 
-> Cabe aclarar que `<leader>` es la tecla espacio en Windows 10.
+## Iniciando
 
+Si no sabes absolutamente nada sobre neovim te recomiendo leer la web oficial, solo clickea [aqui](https://neovim.io)
+Neovim básicamente es un fork de Vim, el cual esta basado en modos, este puede ser un poco confuso al inicio si vienes de editores como
+VSCode, Atom o Sublime Text.
 
-1.- ``<leader>w``   Guardar el archivo
-![image](https://user-images.githubusercontent.com/77551844/115130631-30217100-9fbf-11eb-8279-7acb83a96739.png)
-3.- ``<leader>q``   Salir del archivo
-![image](https://user-images.githubusercontent.com/77551844/115130637-3c0d3300-9fbf-11eb-95e2-a857172bcb7c.png)
-5.- ``<leader>wq``  Guardar y salir del archivo
-![image](https://user-images.githubusercontent.com/77551844/115130655-6e1e9500-9fbf-11eb-9bf1-99156af6eee5.png)
-7.- ``<leader>so``  Actualizar
-![image](https://user-images.githubusercontent.com/77551844/115130667-7c6cb100-9fbf-11eb-94fd-9ad6ecedfa2c.png)
-9.- ``<leader>pi``  Instalar los plugins
-![image](https://user-images.githubusercontent.com/77551844/115130674-87274600-9fbf-11eb-8efb-44133ee2a824.png)
-11.- ``<leader>n``   CocExplorer Lateral
-![image](https://user-images.githubusercontent.com/77551844/115130680-93ab9e80-9fbf-11eb-9600-3160e78c756f.png)
-13.- ``<leader>p``  CocExplorer Flotante
-![image](https://user-images.githubusercontent.com/77551844/115130691-9d350680-9fbf-11eb-98a2-c5d32962862f.png)
-14.- ``<leader>t``  Floaterm
-![image](https://user-images.githubusercontent.com/77551844/115130709-bd64c580-9fbf-11eb-8ce6-844496acb45d.png)
+Para instalarlo te dejo una guía sencilla de un amigo llamado [Teo](https://github.com/TeoDev1611), solo clickea [aqui](https://dev.to/teodev1611/como-instalar-neovim-en-windows-2aic)
+
+## Movimientos
+
+| J | Abajo     |
+|---|-----------|
+| K | Arriba    |
+| L | Derecha   |
+| H | Izquierda |
 
 
-Entre otros comandos.
+## Atajos
 
-## Movimiento en Vim
+| ``<leader>w``  | Guardar                                              |
+|----------------|------------------------------------------------------|
+| ``<leader>q``  | Salir                                                |
+| ``<leader>wq`` | Guardar y Salir                                      |
+| ``<leader>so`` | Actualizar                                           |
+| ``<leader>pi`` | Instalar Plugins                                     |
+| ``<leader>pc`` | Eliminar plugins unválidos                           |
+| ``<leader>e``  | Abrir el explorador de archivos (Coc-Explorer)       |
+| ``<leader>p``  | Abrir el explorador de archivos de  manera flotante  |
 
-Para moverte en Vim debes utilizar las teclas *L,K,J y H*.
+> Cabe aclarar que estos son completamente personalizables a gusto en el archivo init.vim
 
-```
-J = Abajo
-K = Arriba
-H = Izquierda
-L = Derecha
-```
 
 ## Uso de esta configuración
 
-1. Clona este repositorio
-2. Pegalo en tu carpeta donde esta tu nvim
-3. Ejecuta :PlugInstall
-4. Actualiza con :so$ o simplemente sal de nvim o y vuelve a entrar
+
+- Ubicate en alguna ruta, y ejecuta el siguiente comando
+
+> Nota, tener instalado [git](https://git-scm.com)
+
+```
+git clone github.com/FrancisCode13/NeoVim-Config
+```
+
+Pega la carpeta que se te habrá creado en la ruta de tu Neovim, en mi caso la tengo en ``C:/Users/TUUSUARIO/AppData/Local``
+
+Ingresa a Neovim usando ``nvim``
+
+Ejecuta ``:PlugInstall``
+
+Espera a que se instalen los plugins, y listo!, ya tienes mi configuración de Neovim
+
+> Nota: Usar preferiblemente con una [nerdfont](https://www.nerdfonts.com)
+
+Y por último recuerda dejar una estrellita a este repositorio 🤩🪐⭐
+
+
+
+<p style="text-align: center;">Made by Francisco in Chile 🪐</p>
 
 
 
 
-Créditos a Teo por la mayoría de la configuración 😄
 
