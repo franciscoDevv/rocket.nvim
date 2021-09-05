@@ -29,7 +29,6 @@ Para instalarlo te dejo una guía sencilla de un amigo llamado [Teo](https://git
 ## Atajos
 
 | ``<leader>w``  | Guardar                                              |
-|----------------|------------------------------------------------------|
 | ``<leader>q``  | Salir                                                |
 | ``<leader>wq`` | Guardar y Salir                                      |
 | ``<leader>so`` | Actualizar                                           |
