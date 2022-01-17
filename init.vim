@@ -22,18 +22,20 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} "coc
 Plug 'navarasu/onedark.nvim' "onedark 
 Plug 'ryanoasis/vim-devicons' "devicons
 Plug 'grvcoelho/vim-javascript-snippets' "javascript snippets
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } "go
 Plug 'rktjmp/lush.nvim' "lush 
 Plug 'ellisonleao/gruvbox.nvim' "gruvbox 
-Plug 'honza/vim-snippets' "snippets para varios lenguajes de programacion
+"Plug 'honza/vim-snippets' "snippets para varios lenguajes de programacion
 Plug 'glepnir/dashboard-nvim' "dashboard
 Plug 'junegunn/fzf.vim' "fzf
+Plug 'arcticicestudio/nord-vim' "nord
+Plug 'arcticicestudio/nord-vim', { 'on': 'NERDTreeToggle' }
 call plug#end()
-
 
 
 "set colorscheme 
 colorscheme tokyonight
+
+
 
 "vim airline
 let g:airline#extensions#tabline#enabled = 1

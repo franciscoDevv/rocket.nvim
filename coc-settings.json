@@ -1,5 +1,6 @@
 {
 // coc-explorer
+"snippets.ultisnips.usePythonx": false
   "explorer.openAction.for.directory": "expandOrCollapse",
     "explorer.git.icon.status.added": "✚",
       "explorer.git.icon.status.deleted": "✖",
