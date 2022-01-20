@@ -1,5 +1,5 @@
 
-set number
+set nocursorline
 set relativenumber
 set mouse=a "activar mouse
 set noshowmode "no mostrar el modo en que estamos
@@ -15,6 +15,8 @@ set guifont=JetBrainsMono\ Nerd\ Font:h11
 
 "plugins
 call plug#begin()
+Plug 'hrsh7th/vim-vsnip' "snippets
+Plug 'voldikss/vim-floaterm' "floaterm
 Plug 'ghifarit53/tokyonight-vim' "colorscheme
 Plug 'vim-airline/vim-airline' "barra de estado
 Plug 'vim-airline/vim-airline-themes' "barra de estado
@@ -33,13 +35,13 @@ call plug#end()
 
 
 "set colorscheme 
-colorscheme tokyonight
+colorscheme nord
 
 
 
 "vim airline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='tokyonight'
+let g:airline_theme='nord'
 
 "keybins
 let mapleader=" "
@@ -57,7 +59,8 @@ nmap <leader>so :so%<CR>
 nmap <leader>pi :PlugInstall<CR>
 "eliminar plugins 
 nmap <leader>pc :PlugClean<CR>
-
+nmap <leader>t :FloatermNew<CR>
+nmap <leader>tt :FloatermToggle<CR>
 
 "------------------------------------------------COC EXPLORER CONFIG
 " Disable netrw.
@@ -133,3 +136,29 @@ nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
 nnoremap <silent> <Leader>fa :DashboardFindWord<CR>
 nnoremap <silent> <Leader>fb :DashboardJumpMark<CR>
 nnoremap <silent> <Leader>cn :DashboardNewFile<CR>'
+
+" Snipets
+imap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+
+" Expand or jump
+imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
+" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
+" See https://github.com/hrsh7th/vim-vsnip/pull/50
+nmap        s   <Plug>(vsnip-select-text)
+xmap        s   <Plug>(vsnip-select-text)
+nmap        S   <Plug>(vsnip-cut-text)
+xmap        S   <Plug>(vsnip-cut-text)
+
+" If you want to use snippet for multiple filetypes, you can `g:vsnip_filetypes` for it.
+let g:vsnip_filetypes = {}
+let g:vsnip_filetypes.javascriptreact = ['javascript']
+let g:vsnip_filetypes.typescriptreact = ['typescript']
