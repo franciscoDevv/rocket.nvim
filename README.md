@@ -1,71 +1,58 @@
+<div align="center">
+    <p>
+        <img width="200" src="rocket.png">
+  </p>
+  <h1>🚀 rocket.nvim 🚀</h1>
+  <hr>
+  <img src="https://img.shields.io/badge/status-building-brightgreen">
+  <img src="https://img.shields.io/badge/build%20by-frannn-blue">
+  <img src="https://img.shields.io/github/last-commit/franciscomunozz/rocket.nvim">
+</div>
 
 
-<center><h1 style="text-align: center">🚀 rocket.vim 🚀<h1></center>
-  <center>  <div style="display: flex; justify-content: center"><div><img src="rocket.png" height="100"></div></div></center>
-<h3 style="text-align: center;">Preview</h3>
+## 🐱‍👤 What is this?
+This is my config of Neovim, is called rocket because it's fast and clean
 
-![image](https://user-images.githubusercontent.com/77551844/132143265-0c1b860a-8610-48a9-912c-c1c7394a33ed.png)
+<hr>
 
-## Iniciando
+### Demo 📸
+![image](https://user-images.githubusercontent.com/77551844/150694468-cba7988a-1ecf-4cb7-8a40-bde01033847d.png)
 
-Si no sabes absolutamente nada sobre neovim te recomiendo leer la web oficial, solo clickea [aqui](https://neovim.io)
-Neovim básicamente es un fork de Vim, el cual esta basado en modos, este puede ser un poco confuso al inicio si vienes de editores como
-VSCode, Atom o Sublime Text.
+<hr>
 
-Para instalarlo te dejo una guía sencilla de un amigo llamado [Teo](https://github.com/TeoDev1611), solo clickea [aqui](https://dev.to/teodev1611/como-instalar-neovim-en-windows-2aic)
+## 🤩 Install
 
-## Movimientos
-
-| J | Abajo     |
-|---|-----------|
-| K | Arriba    |
-| L | Derecha   |
-| H | Izquierda |
-
-
-## Atajos
-
-| ``<leader>w``  | Guardar                                              |
-|----------------|------------------------------------------------------|
-| ``<leader>q``  | Salir                                                |
-| ``<leader>wq`` | Guardar y Salir                                      |
-| ``<leader>so`` | Actualizar                                           |
-| ``<leader>pi`` | Instalar Plugins                                     |
-| ``<leader>pc`` | Eliminar plugins unválidos                           |
-| ``<leader>e``  | Abrir el explorador de archivos (Coc-Explorer)       |
-| ``<leader>p``  | Abrir el explorador de archivos de  manera flotante  |
-
-> Cabe aclarar que estos son completamente personalizables a gusto en el archivo init.vim
-
-
-## Uso de esta configuración
-
-
-- Ubicate en alguna ruta, y ejecuta el siguiente comando
-
-> Nota, tener instalado [git](https://git-scm.com)
+Open cmd.exe and do the next steps:
 
 ```
-git clone github.com/FrancisCode13/NeoVim-Config
+cd appdata\local\nvim
 ```
 
-Pega la carpeta que se te habrá creado en la ruta de tu Neovim, en mi caso la tengo en ``C:/Users/TUUSUARIO/AppData/Local``
+```
+git clone https://github.com/franciscomunozz/rocket.nvim
+```
 
-Ingresa a Neovim usando ``nvim``
+This will create a folder named rocket.nvim, 
+Delete all of the things than do u have on your nvim folder without count rocket.nvim folder, 
+Cut all the files on that folder and paste into nvim, 
+Now you can delete the rocket.nvim folder 🚀
+<br>
+Then on your terminal
 
-Ejecuta ``:PlugInstall``
+```
+nvim init.vim
+```
 
-Espera a que se instalen los plugins, y listo!, ya tienes mi configuración de Neovim
+```
+:w
+:PlugInstall
+:wq
+```
 
-> Nota: Usar preferiblemente con una [nerdfont](https://www.nerdfonts.com)
+Then open again your nvim with ``nvim init.vim``
+And it's all! You can use my neovim config ⭐🚀
 
-Y por último recuerda dejar una estrellita a este repositorio 🤩🪐⭐
+Please star this repo! ⭐
 
-
-
-<p style="text-align: center;">Made by Francisco in Chile 🪐</p>
-
-
-
-
-
+<hr>
+<p>Made with ❤ in Chile</p>
