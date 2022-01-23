@@ -1,10 +1,7 @@
 
 
-
-# 🪐 Neovim-Config 🪐
-
-> Esta configuración fue hecha desde cero, la cual llevó (y lleva) gran parte de mi tiempo realizarla, por la cual, me gustaría que dejaras una estrellita a este repositorio! ⭐
-
+<h1 style="text-align: center">🚀 rocket.vim 🚀<h1>
+  <div style="display: flex; justify-content: center"><div><img src="rocket.png"></div></div>
 <h3 style="text-align: center;">Preview</h3>
 
 ![image](https://user-images.githubusercontent.com/77551844/132143265-0c1b860a-8610-48a9-912c-c1c7394a33ed.png)
